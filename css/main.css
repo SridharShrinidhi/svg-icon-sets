@@ -1,0 +1,44 @@
+html {
+  font-family: Overpass, sans-serif;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: #fff;
+}
+
+.b {
+  border-bottom: 3px solid #fff;
+  border-radius: 3px;
+}
+
+.btn-ghost {
+  border-color: #fff;
+  color: #fff;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.btn-ghost:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #ff9500;
+  border-color: #fff;
+}
+
+i {
+  display: block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .b1 {
+    border-bottom: 0;
+    border-right: 3px solid #fff;
+    border-radius: 3px;
+  }
+
+  .b {
+    border-bottom: none;
+  }
+}
